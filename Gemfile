@@ -33,3 +33,12 @@ gem "webrick"
 # Get the html-proofer to work
 gem 'rake'
 gem 'html-proofer'
+
+# Added because Ruby3.3 does not include 'erb' and 'csv' in its default gems
+gem 'erb'
+gem 'csv'
+
+# Added to generate offline documentation
+gem 'nokogiri'
+gem 'kramdown'
+

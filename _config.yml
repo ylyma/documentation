@@ -30,6 +30,10 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
+plugins_dir:
+  - _plugins
+  - _plugins-offlinedocs
+
 kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]
 
